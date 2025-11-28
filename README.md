@@ -14,20 +14,20 @@
 - MySQL
 - Usuário com permissão para criar database
 
-## Executar (linha de comando)
+## Executar
+mysql -u root -p
 
-```bash
 # 1) Crie o banco
-mysql -u root -p < sql/00_create_database.sql
+00_create_database.sql
 
 # 2) Crie as tabelas
-mysql -u root -p ecommerce_db < sql/01_create_table.sql
+sql/01_create_table.sql
 
 # 3) Popule com dados
-mysql -u root -p ecommerce_db < sql/02_inserts.sql
+sql/02_inserts.sql
 
 # 4) Rode as consultas de exemplo
-mysql -u root -p ecommerce_db < sql/03_selects.sql
+sql/03_selects.sql
 
 # 5) Teste os UPDATE/DELETE (opcional)
 mysql -u root -p ecommerce_db < sql/04_updates_deletes.sql
