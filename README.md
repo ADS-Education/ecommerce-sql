@@ -21,13 +21,13 @@ mysql -u root -p
 00_create_database.sql
 
 # 2) Crie as tabelas
-sql/01_create_table.sql
+01_create_table.sql
 
 # 3) Popule com dados
-sql/02_inserts.sql
+02_inserts.sql
 
 # 4) Rode as consultas de exemplo
-sql/03_selects.sql
+03_selects.sql
 
 # 5) Teste os UPDATE/DELETE
-sql/04_updates_deletes.sql
+04_updates_deletes.sql
