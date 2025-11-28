@@ -29,5 +29,5 @@ sql/02_inserts.sql
 # 4) Rode as consultas de exemplo
 sql/03_selects.sql
 
-# 5) Teste os UPDATE/DELETE (opcional)
-mysql -u root -p ecommerce_db < sql/04_updates_deletes.sql
+# 5) Teste os UPDATE/DELETE
+sql/04_updates_deletes.sql
